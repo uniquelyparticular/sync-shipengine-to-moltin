@@ -40,7 +40,7 @@ module.exports = cors(async (req, res) => {
     return send(res, 204)
   }
 
-/*
+  /*
 {
   "resource_url": "https://api.shipengine.com/v1/tracking/usps/9361269903502070406152",
   "resource_type": "API_TRACK",
@@ -78,9 +78,7 @@ module.exports = cors(async (req, res) => {
 
   try {
     const tracking_update = await json(req)
-    const {
-      status_description: status
-    } = tracking_update
+    const { status_description: status } = tracking_update
 
     let tracking_extra = {} //TODO: figure out how to get OrderID added to ShipEngine Shipment
     if (tracking_update.extra) {
