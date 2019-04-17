@@ -4,13 +4,13 @@
 
 > Update Moltin order shipping status when delivered in ShipEngine
 
-Asynchronous microservice that is triggered by [ShipEngine](https://www.shipengine.com/) webhooks to update Order data inside of [moltin](https://moltin.com).
+Asynchronous microservice that is triggered by [ShipEngine](https://www.shipengine.com) webhooks to update Order data inside of [moltin](https://moltin.com).
 
 Built with [Micro](https://github.com/zeit/micro)! 🤩
 
 ## 🛠 Setup
 
-Both a [moltin](https://moltin.com) _and_ [ShipEngine](https://www.shipengine.com/) account are needed for this to function.
+Both a [moltin](https://moltin.com) _and_ [ShipEngine](https://www.shipengine.com) account are needed for this to function.
 
 Create a `.env` at the project root with the following credentials:
 
