@@ -1,3 +1,3 @@
 it('test success', () => {
-  expect('test').toEqual('test')
+  expect('testing').toEqual('testing')
 })
